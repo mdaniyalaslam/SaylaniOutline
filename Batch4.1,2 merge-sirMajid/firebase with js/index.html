@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "Yuor api key",
+            authDomain: "Your auth domain",
+            databaseURL: "projuct name firebaseio.com",
+        };
+        firebase.initializeApp(config);
+    </script>
+</head>
+
+<body>
+    <input type="text" id="input">
+    <button onclick="todo()">Submit</button>
+
+    <ul id="unOrderList"></ul>
+
+</body>
+<script src="app.js"></script>
+
+</html>
